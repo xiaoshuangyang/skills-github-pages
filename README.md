@@ -1,51 +1,43 @@
-<header>
-
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the homepage content was not empty.
--->
-
-## Step 3: Customize your homepage
-
-_Nice work setting the theme! :sparkles:_
-
-You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
-
-### :keyboard: Activity: Create your homepage
-
-1. Browse to the `index.md` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Type the content you want on your homepage. You can use Markdown formatting on this page.
-1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
-1. Commit your changes to the `my-pages` branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
+---    
+title: # 文章标题  
+# 如果你使用 ob 的 Github Publisher 插件，则需要定义 filename 字段  
+# 它表示的是文件名，即：110301.md，该博客只能使用纯数字的文件名，否则发布会失败  
+# filename 字段的优点：即便你在ob中定义的文件名是 中文名.md，发布到 git 时会自动变为 数字.md  
+filename: 110301  
+tags:    
+  - blog    
+  - cloudflare    
+  - github    
+categories:    
+  - 前端建站    
+date: 2024-11-03    
+description: 作者的仓库和博客只介绍了本地部署和 vercel 部署两种方式，是否可以部署到 github pages 和 cf pages 呢？答案是可以的！    
+articleGPT: 这段内容提供了一个详细的指南，介绍如何将名为vitepress-theme-curve的VitePress主题博客部署到GitHub Pages和Cloudflare Pages。步骤包括从模板复制仓库、设置仓库名称和权限、配置GitHub Actions以及绑定自定义域名。同时，也提供了关于如何在Cloudflare Pages上部署的两种方法。文档最后提到了一些需要用户自行修改的设置文件，以及提供了作者博客的链接，用户可以查阅更多相关设置的指南。    
+references:  # 参考文档，非必须。title是参考文档的标题，url是链接  
+  - title:     
+    url:     
+top: true  # 置顶参数  
+share: true  # ob 的 Github Publisher 插件需要的字段，true 即为需要发布  
+delete: false  # ob 的 Github Publisher 插件需要的字段，false 表示不删除  
+------    
+title: # 文章标题  
+# 如果你使用 ob 的 Github Publisher 插件，则需要定义 filename 字段  
+# 它表示的是文件名，即：110301.md，该博客只能使用纯数字的文件名，否则发布会失败  
+# filename 字段的优点：即便你在ob中定义的文件名是 中文名.md，发布到 git 时会自动变为 数字.md  
+filename: 110301  
+tags:    
+  - blog    
+  - cloudflare    
+  - github    
+categories:    
+  - 前端建站    
+date: 2024-11-03    
+description: 作者的仓库和博客只介绍了本地部署和 vercel 部署两种方式，是否可以部署到 github pages 和 cf pages 呢？答案是可以的！    
+articleGPT: 这段内容提供了一个详细的指南，介绍如何将名为vitepress-theme-curve的VitePress主题博客部署到GitHub Pages和Cloudflare Pages。步骤包括从模板复制仓库、设置仓库名称和权限、配置GitHub Actions以及绑定自定义域名。同时，也提供了关于如何在Cloudflare Pages上部署的两种方法。文档最后提到了一些需要用户自行修改的设置文件，以及提供了作者博客的链接，用户可以查阅更多相关设置的指南。    
+references:  # 参考文档，非必须。title是参考文档的标题，url是链接  
+  - title:     
+    url:     
+top: true  # 置顶参数  
+share: true  # ob 的 Github Publisher 插件需要的字段，true 即为需要发布  
+delete: false  # ob 的 Github Publisher 插件需要的字段，false 表示不删除  
 ---
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
